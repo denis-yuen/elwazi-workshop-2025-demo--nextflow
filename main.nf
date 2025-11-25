@@ -1,7 +1,7 @@
 #!/usr/bin/env nextflow
 nextflow.enable.dsl=2
 
-input_ch = Channel.fromPath("11.bim")
+input_ch = Channel.fromPath("data/11.bim")
 
 process getIDs {
     input:
