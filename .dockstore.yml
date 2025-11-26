@@ -2,3 +2,5 @@ version: 1.2
 workflows:
   - subclass: NFL
     primaryDescriptorPath: /nextflow.config
+    authors:
+      - orcid: 0000-0002-6130-1021
